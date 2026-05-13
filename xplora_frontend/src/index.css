@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* ─── Global viewport fix (prevents white gap on Android Chrome) ─── */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100dvh;
+}
+
+body {
+  min-height: 100dvh;
+  margin: 0;
+}
+
+#root {
+  min-height: 100dvh;
+}
