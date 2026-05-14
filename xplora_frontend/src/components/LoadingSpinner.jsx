@@ -15,8 +15,7 @@ const LoadingSpinner = () => {
           "url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1920&q=85')",
         backgroundSize: "cover",
         backgroundPosition: "center 35%",
-        // ❌ removed backgroundAttachment: "fixed" — breaks on iOS Safari
-        // The fixed positioning of the container itself achieves the same visual
+        backgroundPosition: "center top",
       }}
     >
       {/* Cinematic overlay */}
